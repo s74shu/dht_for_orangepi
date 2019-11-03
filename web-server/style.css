@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+/*@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);*/
+
+:root{
+  --brd-radius: 20px;
+}
+
+body {
+  background-color: #A64253;
+  font-family: Poiret One;
+}
+.widget {
+  font-size: 4em;
+  position: absolute;
+  background: #FAFAFA;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 600px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  border-radius: var(--brd-radius);
+  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+    .temperature{
+      flex: 0 0 50%;	    
+      height: 60%;
+      font-size: 65px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .humidity{
+      flex: 0 0 50%;	    
+      height: 60%;
+      font-size: 65px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+}  
+
+p{
+  position: fixed;
+  bottom: 0%;
+  right: 2%;
+  a{
+    text-decoration: none;
+    color: #E4D6A7;
+    font-size: 10px;
+  }
+}
