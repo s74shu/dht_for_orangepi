@@ -1,1 +1,2 @@
-cc -Wall -o dht dht.c -lwiringPi
+dhtd: dht.c
+	cc -Wall -o dhtd dht.c -lwiringPi

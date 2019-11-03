@@ -1,0 +1,4 @@
+[submodule "WiringOP"]
+	path = WiringOP
+	url = https://github.com/zhaolei/WiringOP.git
+	branch = h3
